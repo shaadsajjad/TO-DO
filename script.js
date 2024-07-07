@@ -61,7 +61,7 @@ async function show() {
             const checkBox = document.createElement("input");
             const title = document.createElement("p");
             const cross = document.createElement("img");
-            cross.src = "/images/th.jpeg"
+            cross.src = "./images/th.jpeg"
             checkBox.type = "checkbox"
             cross.classList.add("w-[15px]", "h-10px")
             checkBox.addEventListener("input", () => changeStatus(i));
@@ -81,7 +81,7 @@ async function show() {
             const checkBox = document.createElement("input");
             const title = document.createElement("p");
             const cross = document.createElement("img");
-            cross.src = "/images/th.jpeg"
+            cross.src = "./images/th.jpeg"
             checkBox.type = "checkbox"
             cross.classList.add("w-[15px]", "h-10px")
             checkBox.addEventListener("input", () => changeStatus(i));
@@ -101,7 +101,7 @@ async function show() {
             // const checkBox = document.createElement("input");
             const title = document.createElement("p");
             const cross = document.createElement("img");
-            cross.src = "/images/th.jpeg"
+            cross.src = "./images/th.jpeg"
             // checkBox.type = "checkbox"
              cross.classList.add("w-[15px]", "h-10px")
             // checkBox.addEventListener("input", () => changeStatus(i));
