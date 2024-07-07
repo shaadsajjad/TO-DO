@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="text-3xl mt-10 md:text-5xl font-bold text-center">Task Manager</h1>
+        <p class="text-center mt-2 text-lg">Stay organized and productive with our intutive to-do app.</p>
+        <input id="todoinput" type="text" placeholder="Add a new task in todo"
+            class="w-[250px] md:w-[400px] mb-3 mb:mb-0 border-4 bg-gray-200 mt-4 rounded p-1"> 
+        <button id="inputbtn" class="bg-black text-white w-[80px] h-[37px] rounded-lg ml-2">Add Task</button>
+        <p id="error-msg" class="hidden text-red-500  md:text-lg md:mr-[163px]">gfdg</p>
+        <div class="mt-10 md:flex md:flex-row md:justify-center flex flex-col items-center">
+           
+            <div  class="w-[300px] min-h-[200px] md:min-h-[300px]  rounded-lg border-2 border-gray-200">
+                <p class="w-[300px] bg-blue-200 h-[40px] pt-2 text-left md:pl-2 font-bold rounded-t-lg">To Do</p>
+                <div id="todo-list" class="">
+
+                </div>
+            </div>
+            
+            <div class="w-[300px] min-h-[200px] md:min-h-[300px] md:ml-10 mt-10 md:mt-0 rounded-lg border-2 border-gray-200">
+                <p class="w-[300px] bg-pink-100 h-[40px] pt-2 text-left md:pl-2 font-bold rounded-t-lg">In Progress</p>
+                <div id="progress-list" class="">
+
+                </div>
+
+            </div>
+            <div class="w-[300px] min-h-[200px] md:min-h-[300px] md:ml-10 rounded-lg mt-10 md:mt-0 border-2 border-gray-200">
+                <p class="w-[300px] bg-green-100 h-[40px] pt-2 text-left md:pl-2 font-bold rounded-t-lg">Completed</p>
+                <div id="complete-list" class="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
